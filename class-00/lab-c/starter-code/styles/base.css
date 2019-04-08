@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
+
+
 * {
   font-family: times;
 }
@@ -11,4 +14,8 @@ main p {
   line-height: 1.3em;
   text-indent: 30px;
   margin: 20px 0px;
+}
+
+input {
+  font-family: 'Patrick Hand', cursive;
 }
