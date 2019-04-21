@@ -191,8 +191,8 @@ console.log(joe.scopeArrow());
 
 // TODO: Write a COMMENT below to answer the following questions.
 // 1. What is "this" when joe.scope() is invoked?
-// -undefine 
+//      this is the student constructor for the joe object
 // 2. What is "this" when joe.scopeArrow() is invoked?
-// - Window {etc.}
+//      this is the nearest scope, which is the window object
 // 3. Explain why "this" is different when an arrow function is used.
-//-undefine 
+//     Arrow functions have a scope of a code block. Acessing ".this" in a code block changes the scope to the next nearest scope/ window object
